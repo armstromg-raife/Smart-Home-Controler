@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+class smartHome{
+    
+}
 
+protocol Device{
+    func togleSwitch()
+    func on()
+    func off()
+}
