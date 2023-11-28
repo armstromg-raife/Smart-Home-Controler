@@ -7,12 +7,9 @@
 
 import Foundation
 
-class smartHome{
-    
-}
 
-protocol Device{
-    func togleSwitch()
-    func on()
-    func off()
-}
+SmartHome().addingDevices(Lights("let there be light"))
+
+print(SmartHome().desplayDevices())
+
+

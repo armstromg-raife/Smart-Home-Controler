@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C98025A82B110D8D006DBC7E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98025A72B110D8D006DBC7E /* main.swift */; };
+		C9F3D4282B15F6D800F2F82B /* smart home setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F3D4272B15F6D800F2F82B /* smart home setup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		C98025A42B110D8D006DBC7E /* Smart Home Controler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Smart Home Controler"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98025A72B110D8D006DBC7E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C9F3D4272B15F6D800F2F82B /* smart home setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "smart home setup.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C98025A72B110D8D006DBC7E /* main.swift */,
+				C9F3D4272B15F6D800F2F82B /* smart home setup.swift */,
 			);
 			path = "Smart Home Controler";
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F3D4282B15F6D800F2F82B /* smart home setup.swift in Sources */,
 				C98025A82B110D8D006DBC7E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
